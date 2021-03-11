@@ -1,0 +1,17 @@
+packer_cache/
+output-*/
+priv/
+vendor/
+.vagrant/
+.kitchen/
+*.box
+*.iso
+*.env
+*.ova
+
+.terraform
+*.tfstate*
+
+Gemfile.lock
+.ruby-version
+.DS_Store
