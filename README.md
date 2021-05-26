@@ -124,6 +124,16 @@ Sample result
 
 ## Publish vagrant box to Vagrant cloud 
 
+- Unlogin from vagrant cloud
+```bash
+vagrant cloud auth logout 
+```
+
+- Login to vagrant cloud
+```
+vagrant cloud auth login
+```
+
 - Create vagrant box record on the Vagrant cloud
 ```bash
 vagrant cloud box create Replace_With_your_vagrant_cloud_account_name/mysql64 --no-private
